@@ -3545,7 +3545,7 @@
   resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.16.13.tgz"
   integrity sha512-Qvpihw30irhIjy2f91BR1pamcJBCgf8hmr9XWenztAX1YLkneRkkTB/PFGWQubhaBqQhY2uZKViMj/xV61uMBQ==
 
-"@swc/core@*", "@swc/core@^1.7.28", "@swc/core@>=1.2.50":
+"@swc/core@*", "@swc/core@^1.16.13", "@swc/core@^1.7.28", "@swc/core@>=1.2.50":
   version "1.16.13"
   resolved "https://registry.npmjs.org/@swc/core/-/core-1.16.13.tgz"
   integrity sha512-k4uUsIMS0IwOKVsrQs48IZK75O4roV3FnuJEdL7ES+DFESftdgvz73QBqN3VUAbUmUr78We4tzG0kgYj36M22Q==
@@ -7467,11 +7467,6 @@ picomatch@^2.3.1:
   version "4.0.7"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz"
   integrity sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==
-
-picomatch@3.x:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/picomatch/-/picomatch-3.0.2.tgz"
-  integrity sha512-cfDHL6LStTEKlNilboNtobT/kEa30PtAf2Q1OgszfrG/rpVl1xaFWT9ktfkS306GmHgmnad1Sw4wabhlvFtsTw==
 
 pirates@^4.0.1, pirates@^4.0.4:
   version "4.0.7"
