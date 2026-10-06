@@ -11,4 +11,4 @@ COPY medusa-config.js ./medusa-config.js
 ENV NODE_ENV=production
 EXPOSE 9000
 
-CMD ["npm", "run", "start"]git add Dockerfile
+CMD npm run start
