@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:20-alpine
 
 WORKDIR /app
 
@@ -6,6 +6,7 @@ COPY package*.json ./
 RUN npm install
 
 COPY . .
+RUN npx medusa build
 
 ENV NODE_ENV=production
 EXPOSE 9000
